@@ -1,0 +1,52 @@
+header{
+    background-color: #191c1f;
+    
+}
+
+.banner{
+    background-color: #212529;
+    color: #F8F9FA;
+}
+
+.about{
+    background-color: #191c1f;
+}
+
+.faq{
+    background-color: rgba(33, 37, 41, 1);
+}
+
+.comments{
+    background-color: rgba(33, 37, 41, 1);
+}
+
+footer{
+    background-color: rgba(25, 28, 31, 1);
+}
+
+.title{
+    background-color: #4C6EF5;
+    
+}
+
+.title p{
+    color: #F8F9FA;
+}
+
+h2, h3{
+    color: #F8F9FA;
+}
+
+p{
+    color: #ADB5BD;
+}
+
+button{
+    background-color: #4C6EF5;
+}
+
+.button-header{
+    background-color: rgba(25, 28, 31, 1);
+    color: #F8F9FA;
+    border: solid 1px #ADB5BD;
+}
