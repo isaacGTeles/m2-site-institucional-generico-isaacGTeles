@@ -1,0 +1,81 @@
+.button-header {
+    background-color: var(--primary-bg);
+    color: var(--text-light);
+    border: solid 1px var(--text-muted);
+    padding: var(--button-padding);
+    border-radius: 5px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: var(--padding-default);
+}
+
+.banner {
+    background-color: var(--secondary-bg);
+    color: var(--text-light);
+    text-align: center;
+    padding: 80px var(--padding-default);
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.banner p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+.about, .faq, .comments {
+    background-color: var(--primary-bg);
+    padding: 60px var(--padding-default);
+}
+
+.faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.comments {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.comment-box {
+    background-color: var(--accent-bg);
+    color: var(--text-light);
+    padding: 30px;
+    text-align: center;
+    font-size: var(--subheading-size);
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.comment-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.comment {
+    background-color: var(--secondary-bg);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.comment h4 {
+    color: var(--text-light);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.comment p {
+    color: var(--text-muted);
+}
