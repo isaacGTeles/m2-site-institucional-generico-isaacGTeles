@@ -10,13 +10,13 @@
 
 header{
     background-color: #191c1f;
-    /* position: fixed;
+    position: fixed;
     left: 0;
     top: 0;
-    right: 0; */
+    right: 0;
     background-color: #191c1f;
     border-bottom: 1px solid var(--border-color);
-    /* z-index: 3; */
+    z-index: 3;
     display: flex;
     justify-content: center;
     max-width: 1256px;
