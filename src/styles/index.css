@@ -314,4 +314,59 @@
     background-color: var(--border-color);
 }
 
+@media (max-width: 1024px) {
+  h1 {
+    font-size: clamp(2rem, 6vw, 4rem);
+  }
 
+
+.banner-content{
+  padding: 250px 100px 250px 100px;
+}
+
+.faq-content{
+  flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  h1{
+    font-size: clamp(2rem, 6vw, 4rem);
+  } 
+
+.about-content{
+  padding: 82px 100px 82px 100px;
+}
+
+.faq-content{
+  padding: 60px 100px 60px 100px;
+}
+
+.comments-content{
+  flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  h1{
+    font-size: clamp(2rem, 6vw, 4rem);
+  }
+
+  .header-content{
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .banner-content{
+    padding: 250px 50px 250px 50px;
+  }
+
+  .about-content{
+    padding: 82px 50px 82px 50px;
+  }
+
+  .faq-content{
+    flex-direction: column;
+    padding: 60px 50px 60px 50px;
+  }
+}
