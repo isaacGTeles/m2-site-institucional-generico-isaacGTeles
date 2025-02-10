@@ -1,21 +1,24 @@
 :root {
-    --primary-bg: #191c1f;
-    --secondary-bg: #212529;
-    --accent-bg: #4C6EF5;
-    --text-light: #F8F9FA;
-    --text-p: #ADB5BD;
-    --border-color: #364FC7;
-    --title-color: #EDF2Ff;
+    --gray-1: #191c1f;
+    --gray-2: #212529;
+    --gray-3: #343a40;
+    --gray-4: #adb5bd;
+    --gray-5: #ced4da;
+    --gray-6: #edf2ff;
+    --gray-7: #f8f9fa;
+    --brand-1: #4C6EF5;
+    --brand-2: #364fc7;
+    
 }
 
 header{
-    background-color: #191c1f;
+    background-color: var(--gray-1);
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
-    background-color: #191c1f;
-    border-bottom: 1px solid var(--border-color);
+    background-color: var(--gray-1);
+    border-bottom: 1px solid var(--brand-1);
     z-index: 3;
     display: flex;
     justify-content: center;
@@ -24,22 +27,14 @@ header{
 }
 
 footer{
-    background-color: rgba(25, 28, 31, 1);
+    background-color: var(--gray-1);
     text-align: center;
     padding: 20px 75px 20px 75px;
 }
 
-h2, h3{
-    color: var(--title-color);
-}
-
-p{
-    color: var(--text-p);
-    line-height: 1.5;
-}
 
 button{
-    background-color: #4C6EF5;
+    background-color: var(--brand-1);
 }
 
 html{
@@ -50,9 +45,10 @@ html{
 }
 
 span{
-    color: var(--accent-bg);
+    color: var(--brand-1);
 }
 
 h1{
     font-size: 38px;
+    color: var(--gray-6);
 }
